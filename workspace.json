@@ -1,4 +1,10 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "bilflo": "apps/bilflo",
+    "bilflo-e2e": "apps/bilflo-e2e",
+    "bilflo-routes": "libs/bilflo-routes",
+    "billing": "libs/billing",
+    "reports": "libs/reports"
+  }
 }

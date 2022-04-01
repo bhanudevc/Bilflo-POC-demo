@@ -1,0 +1,23 @@
+{
+  "root": "libs/bilflo-routes",
+  "sourceRoot": "libs/bilflo-routes/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/bilflo-routes/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/bilflo-routes"],
+      "options": {
+        "jestConfig": "libs/bilflo-routes/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
