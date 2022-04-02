@@ -5,6 +5,7 @@
     "bilflo-e2e": "apps/bilflo-e2e",
     "bilflo-routes": "libs/bilflo-routes",
     "billing": "libs/billing",
-    "reports": "libs/reports"
+    "reports": "libs/reports",
+    "side-menu": "libs/side-menu"
   }
 }

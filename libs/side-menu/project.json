@@ -1,0 +1,23 @@
+{
+  "root": "libs/side-menu",
+  "sourceRoot": "libs/side-menu/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/side-menu/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/side-menu"],
+      "options": {
+        "jestConfig": "libs/side-menu/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

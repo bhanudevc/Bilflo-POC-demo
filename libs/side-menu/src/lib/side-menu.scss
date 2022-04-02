@@ -1,0 +1,42 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.custome-header{
+  background-color: #fff;
+  font-weight: 700;
+    padding: 0 20px;
+    border-bottom: 1px solid #919191;
+    .bilflo{
+      font-size: 35px;
+    }
+}
+ .custome-layout{
+  &.layout {
+    height: calc(100vh - 64px);
+  }
+  .main-page{
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-left: 1px solid #919191;
+  }
+ }
+
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+

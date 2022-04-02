@@ -18,7 +18,8 @@
       "@bilflo-demo/bilflo-routes": ["libs/bilflo-routes/src/index.ts"],
       "@bilflo-demo/billing": ["libs/billing/src/index.ts"],
       "@bilflo-demo/reports": ["libs/reports/src/index.ts"],
-      "@bilflo-demo/routes": ["libs/routes/src/index.ts"]
+      "@bilflo-demo/routes": ["libs/routes/src/index.ts"],
+      "@bilflo-demo/side-menu": ["libs/side-menu/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
